@@ -1,0 +1,19 @@
+{
+  "name": "eslint-react-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rajzik/eslint-react-repro.git",
+  "author": "Jan Šilhan <jsilhan@oriflame.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "lumos create-config",
+    "lint": "lumos eslint"
+  },
+  "devDependencies": {
+    "@oriflame/lumos": "^5.7.2",
+    "@types/react": "^17.0.41"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}

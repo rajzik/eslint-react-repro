@@ -1,0 +1,15 @@
+.next/
+coverage/
+node_modules/
+public/
+esm/
+lib/
+!src/lib
+tmp/
+dist/
+build/
+jest.config.js
+babel.config.js
+webpack.config.js
+build*/
+\.eslintrc.js

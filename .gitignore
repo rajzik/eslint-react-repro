@@ -1,0 +1,53 @@
+.DS_Store
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.axe/
+.bundle/
+.happo/
+.idea/
+.npm/
+.vagrant/
+.vscode/
+.eslintcache
+.yarnclean
+
+# Directories
+coverage/
+.coverage/
+dist/
+result/
+esm/
+lib/
+dts/
+public/
+node_modules/
+tmp/
+
+# Custom
+*.min.js
+*.map
+
+# Configs (provided by Lumos)
+.flowconfig
+./webpack.config.js
+*.tsbuildinfo
+build
+.cache
+\.npmrc
+TEST-RESULTS.xml
+!packages/*/.eslintrc.js
+
+# next.js build output
+.next
+
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.build
+next.config.js
+
+storybook-static
